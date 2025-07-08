@@ -1,8 +1,52 @@
 .open{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+.name{
+display: flex;
+justify-content: start;
+  font-weight:800px;
+  font-size: 45px;
+}
+.name span{
+  color: #FD6E0A;
+}
+.links{
+ color: #474747;
+
+}
+li{
+  list-style: none;
+}
+
+ul{
+ display: flex;
+ align-items: center;
+
+
+}
+ul a{
+  text-decoration: none;
+  color:#474747 ;
+  font-size: 20px;
+   margin: 51px;
+}
+.navbutton{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #FD6E0A;
+  border-radius: 5px;
+  padding: 18px 20px;
+  border: none;
 }
