@@ -120,11 +120,7 @@ main{
   margin: 0 auto;
 }
 
-.bg{
 
- 
-
-}
 
 .about{
  background-color: #FFF8F3;
@@ -141,4 +137,50 @@ padding: 80px;
 .aboutp{
   color: #757575;
   size: 18px;
+}
+
+
+
+/* skills section */
+
+.skillstext{
+
+  text-align: center;
+  padding: 100px;
+  
+}
+.skillstext h3{
+  font-size: 35px;
+  font-weight: bold;
+}
+.skillstext p{
+  font-size: 18px;
+  color: #757575;
+}
+.card{
+ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  height: 350px;
+  width: 200px;
+  background: #FFFFFF;
+  box-shadow: black;
+  border-radius: 10px;
+  padding: 30px;
+  
+}
+.textdiv h3{
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.textdiv p{
+ 
+  font-size: 16px;
+  color: #757575;
+
+}
+.cards{
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
 }
