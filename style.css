@@ -114,3 +114,31 @@ text3{
 .textinfo{
   margin-left: 200px;
 }
+/* about section */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.bg{
+
+ 
+
+}
+
+.about{
+ background-color: #FFF8F3;
+margin:150px;
+  text-align: center;
+padding: 80px;
+ 
+}
+.aboutinfo{
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutp{
+  color: #757575;
+  size: 18px;
+}
