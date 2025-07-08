@@ -1,3 +1,6 @@
+
+
+
 .open{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -5,6 +8,15 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+header{
+ background-color:#FFF8F3;
+ margin: 0px;
+ padding: 0px;
+ background-image: url('./images/developer.png'),url('./images/header_bg.png');
+ background-repeat: no-repeat;
+ background-position: top left, bottom right;
+
 }
 nav{
   display: flex;
@@ -49,4 +61,56 @@ ul a{
   border-radius: 5px;
   padding: 18px 20px;
   border: none;
+}
+/* information section */
+.personinfo{
+  display: flex;
+
+}
+.text1{
+  font-size: 45px;
+font-weight: 600px;
+color:#474747 ;
+margin-bottom: 0px;
+}
+.text2{
+margin: 0px;
+  font-size: 85px;
+  font-weight: bold;
+}
+text3{
+  font-size: 18px;
+  color:#757575;
+}
+.buttonts{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+}
+.button1{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 10px ;
+   padding: 5px 20px;
+   background-color: #FD6E0A;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+.button2{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 10px ;
+   padding: 5px 20px;
+   border: 2px solid #FD6E0A;
+   
+   background-color: transparent;
+   color: #FD6E0A;
+   border-radius: 5px;
+}
+.textinfo{
+  margin-left: 200px;
 }
