@@ -82,7 +82,7 @@ text3{
   font-size: 18px;
   color:#757575;
 }
-.buttonts{
+.buttons{
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -222,7 +222,7 @@ display: flex;
    border-radius: 5px;
    margin: 30px;
 }
-.summaruall{
+.summaryall{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,7 +230,55 @@ justify-content: center;
 
 }
 
+footer{
+
+  display: flex;
+  padding: 40px 200px;
+  gap: 40px;
+  background-color: #FFF8F3;
+}
+
+footer h3{
+  font-size: 35px;
+}
 .iconss{
   display: flex;
   gap: 20px;
+}
+input{
+  padding: 20px 25px;
+  width: 263px;
+  background-color: white;
+  margin: 20px 0px;
+  border: none;
+}
+.formright{
+
+ width: 50%;
+
+}
+.formleft{
+  display: flex;
+  flex-direction: column;
+
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+.form  footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  margin:24px;
+  outline:none;
+}
+textarea{
+  border: none;
+  
 }
